@@ -1,0 +1,17 @@
+<!--
+  ~ Copyright SecureKey Technologies Inc. All Rights Reserved.
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+
+<resources>
+    <string name="app_name">AriesDemo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="get_credentials">Get Credentials</string>
+    <string name="new_agent">Create Agent</string>
+
+    <string name="result">Result:</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="placeholder_url">http://your.agent.url</string>
+</resources>
