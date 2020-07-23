@@ -4,63 +4,72 @@
   ~ SPDX-License-Identifier: Apache-2.0
   -->
 
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center_vertical"
-    tools:context=".FirstFragment">
+    android:layout_height="match_parent" >
+
+    <RadioButton
+        android:id="@+id/use_local_agent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="36dp"
+        android:text="Use Local Agent" />
 
     <EditText
         android:id="@+id/agent_url"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerVertical="true"
         android:hint="@string/placeholder_url"
-        app:layout_constraintBottom_toTopOf="@+id/button_newAgent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913"
-        android:windowSoftInputMode="adjustNothing"/>
+        android:layout_marginTop="23dp"
+        android:layout_below="@id/use_local_agent"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/button_newAgent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/new_agent"
-        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/agent_url"
-        tools:ignore="MissingConstraints"
-        android:windowSoftInputMode="adjustNothing"/>
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
-        android:fillViewport="true"
-        app:layout_constraintBottom_toTopOf="@id/button_first"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="93dp">
-
-        <com.dandan.jsonhandleview.library.JsonViewLayout
-            android:id="@+id/jsonView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-    </RelativeLayout>
+        android:layout_below="@id/agent_url"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="19dp"
+        android:text="@string/new_agent" />
 
     <Button
-        android:id="@+id/button_first"
+        android:id="@+id/button_get_credentials"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
-        android:text="@string/get_credentials"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_below="@id/button_newAgent"
+        android:layout_marginTop="43dp"
+        android:enabled="false"
+        android:text="@string/get_credentials" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/resp_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_get_credentials"
+        android:layout_marginTop="15dp"
+        android:padding="12dp"
+        android:shadowColor="@color/cardview_light_background"
+        android:text="Retrieved Credentials:"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/resp_label"
+        android:padding="5dp"
+        android:fillViewport="true"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/credentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</RelativeLayout>
