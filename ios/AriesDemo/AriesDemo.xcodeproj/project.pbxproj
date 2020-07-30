@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB1741224BCAC6E00436DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1741124BCAC6E00436DFC /* AppDelegate.m */; };
+		AFB1741524BCAC6E00436DFC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1741424BCAC6E00436DFC /* SceneDelegate.m */; };
+		AFB1741824BCAC6E00436DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1741724BCAC6E00436DFC /* ViewController.m */; };
+		AFB1741B24BCAC6E00436DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB1741924BCAC6E00436DFC /* Main.storyboard */; };
+		AFB1741E24BCAC6E00436DFC /* AriesDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB1741C24BCAC6E00436DFC /* AriesDemo.xcdatamodeld */; };
+		AFB1742024BCAC6E00436DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB1741F24BCAC6E00436DFC /* Assets.xcassets */; };
+		AFB1742324BCAC6E00436DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB1742124BCAC6E00436DFC /* LaunchScreen.storyboard */; };
+		AFB1742624BCAC6F00436DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1742524BCAC6F00436DFC /* main.m */; };
+		AFB1743024BCAC6F00436DFC /* AriesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1742F24BCAC6F00436DFC /* AriesDemoTests.m */; };
+		AFB1743B24BCAC6F00436DFC /* AriesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB1743A24BCAC6F00436DFC /* AriesDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB1742C24BCAC6F00436DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB1740524BCAC6E00436DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB1740C24BCAC6E00436DFC;
+			remoteInfo = AriesDemo;
+		};
+		AFB1743724BCAC6F00436DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB1740524BCAC6E00436DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB1740C24BCAC6E00436DFC;
+			remoteInfo = AriesDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFB1740D24BCAC6E00436DFC /* AriesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AriesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1741024BCAC6E00436DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFB1741124BCAC6E00436DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFB1741324BCAC6E00436DFC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AFB1741424BCAC6E00436DFC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AFB1741624BCAC6E00436DFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFB1741724BCAC6E00436DFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFB1741A24BCAC6E00436DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB1741D24BCAC6E00436DFC /* AriesDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AriesDemo.xcdatamodel; sourceTree = "<group>"; };
+		AFB1741F24BCAC6E00436DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB1742224BCAC6E00436DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFB1742424BCAC6F00436DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB1742524BCAC6F00436DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB1742B24BCAC6F00436DFC /* AriesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1742F24BCAC6F00436DFC /* AriesDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AriesDemoTests.m; sourceTree = "<group>"; };
+		AFB1743124BCAC6F00436DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB1743624BCAC6F00436DFC /* AriesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB1743A24BCAC6F00436DFC /* AriesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AriesDemoUITests.m; sourceTree = "<group>"; };
+		AFB1743C24BCAC6F00436DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB1740A24BCAC6E00436DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1742824BCAC6F00436DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1743324BCAC6F00436DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB1740424BCAC6E00436DFC = {
+			isa = PBXGroup;
+			children = (
+				AFB1740F24BCAC6E00436DFC /* AriesDemo */,
+				AFB1742E24BCAC6F00436DFC /* AriesDemoTests */,
+				AFB1743924BCAC6F00436DFC /* AriesDemoUITests */,
+				AFB1740E24BCAC6E00436DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB1740E24BCAC6E00436DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1740D24BCAC6E00436DFC /* AriesDemo.app */,
+				AFB1742B24BCAC6F00436DFC /* AriesDemoTests.xctest */,
+				AFB1743624BCAC6F00436DFC /* AriesDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB1740F24BCAC6E00436DFC /* AriesDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1741024BCAC6E00436DFC /* AppDelegate.h */,
+				AFB1741124BCAC6E00436DFC /* AppDelegate.m */,
+				AFB1741324BCAC6E00436DFC /* SceneDelegate.h */,
+				AFB1741424BCAC6E00436DFC /* SceneDelegate.m */,
+				AFB1741624BCAC6E00436DFC /* ViewController.h */,
+				AFB1741724BCAC6E00436DFC /* ViewController.m */,
+				AFB1741924BCAC6E00436DFC /* Main.storyboard */,
+				AFB1741F24BCAC6E00436DFC /* Assets.xcassets */,
+				AFB1742124BCAC6E00436DFC /* LaunchScreen.storyboard */,
+				AFB1742424BCAC6F00436DFC /* Info.plist */,
+				AFB1742524BCAC6F00436DFC /* main.m */,
+				AFB1741C24BCAC6E00436DFC /* AriesDemo.xcdatamodeld */,
+			);
+			path = AriesDemo;
+			sourceTree = "<group>";
+		};
+		AFB1742E24BCAC6F00436DFC /* AriesDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1742F24BCAC6F00436DFC /* AriesDemoTests.m */,
+				AFB1743124BCAC6F00436DFC /* Info.plist */,
+			);
+			path = AriesDemoTests;
+			sourceTree = "<group>";
+		};
+		AFB1743924BCAC6F00436DFC /* AriesDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB1743A24BCAC6F00436DFC /* AriesDemoUITests.m */,
+				AFB1743C24BCAC6F00436DFC /* Info.plist */,
+			);
+			path = AriesDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB1740C24BCAC6E00436DFC /* AriesDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB1743F24BCAC6F00436DFC /* Build configuration list for PBXNativeTarget "AriesDemo" */;
+			buildPhases = (
+				AFB1740924BCAC6E00436DFC /* Sources */,
+				AFB1740A24BCAC6E00436DFC /* Frameworks */,
+				AFB1740B24BCAC6E00436DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AriesDemo;
+			productName = AriesDemo;
+			productReference = AFB1740D24BCAC6E00436DFC /* AriesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB1742A24BCAC6F00436DFC /* AriesDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB1744224BCAC6F00436DFC /* Build configuration list for PBXNativeTarget "AriesDemoTests" */;
+			buildPhases = (
+				AFB1742724BCAC6F00436DFC /* Sources */,
+				AFB1742824BCAC6F00436DFC /* Frameworks */,
+				AFB1742924BCAC6F00436DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB1742D24BCAC6F00436DFC /* PBXTargetDependency */,
+			);
+			name = AriesDemoTests;
+			productName = AriesDemoTests;
+			productReference = AFB1742B24BCAC6F00436DFC /* AriesDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFB1743524BCAC6F00436DFC /* AriesDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB1744524BCAC6F00436DFC /* Build configuration list for PBXNativeTarget "AriesDemoUITests" */;
+			buildPhases = (
+				AFB1743224BCAC6F00436DFC /* Sources */,
+				AFB1743324BCAC6F00436DFC /* Frameworks */,
+				AFB1743424BCAC6F00436DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB1743824BCAC6F00436DFC /* PBXTargetDependency */,
+			);
+			name = AriesDemoUITests;
+			productName = AriesDemoUITests;
+			productReference = AFB1743624BCAC6F00436DFC /* AriesDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB1740524BCAC6E00436DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = TrustBloc;
+				TargetAttributes = {
+					AFB1740C24BCAC6E00436DFC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					AFB1742A24BCAC6F00436DFC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AFB1740C24BCAC6E00436DFC;
+					};
+					AFB1743524BCAC6F00436DFC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = AFB1740C24BCAC6E00436DFC;
+					};
+				};
+			};
+			buildConfigurationList = AFB1740824BCAC6E00436DFC /* Build configuration list for PBXProject "AriesDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB1740424BCAC6E00436DFC;
+			productRefGroup = AFB1740E24BCAC6E00436DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB1740C24BCAC6E00436DFC /* AriesDemo */,
+				AFB1742A24BCAC6F00436DFC /* AriesDemoTests */,
+				AFB1743524BCAC6F00436DFC /* AriesDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB1740B24BCAC6E00436DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1742324BCAC6E00436DFC /* LaunchScreen.storyboard in Resources */,
+				AFB1742024BCAC6E00436DFC /* Assets.xcassets in Resources */,
+				AFB1741B24BCAC6E00436DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1742924BCAC6F00436DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1743424BCAC6F00436DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB1740924BCAC6E00436DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1742624BCAC6F00436DFC /* main.m in Sources */,
+				AFB1741824BCAC6E00436DFC /* ViewController.m in Sources */,
+				AFB1741224BCAC6E00436DFC /* AppDelegate.m in Sources */,
+				AFB1741524BCAC6E00436DFC /* SceneDelegate.m in Sources */,
+				AFB1741E24BCAC6E00436DFC /* AriesDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1742724BCAC6F00436DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1743024BCAC6F00436DFC /* AriesDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB1743224BCAC6F00436DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB1743B24BCAC6F00436DFC /* AriesDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB1742D24BCAC6F00436DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB1740C24BCAC6E00436DFC /* AriesDemo */;
+			targetProxy = AFB1742C24BCAC6F00436DFC /* PBXContainerItemProxy */;
+		};
+		AFB1743824BCAC6F00436DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB1740C24BCAC6E00436DFC /* AriesDemo */;
+			targetProxy = AFB1743724BCAC6F00436DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB1741924BCAC6E00436DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB1741A24BCAC6E00436DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB1742124BCAC6E00436DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB1742224BCAC6E00436DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB1743D24BCAC6F00436DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFB1743E24BCAC6F00436DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB1744024BCAC6F00436DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AriesDemo.xcodeproj",
+				);
+				INFOPLIST_FILE = AriesDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.trustbloc.AriesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB1744124BCAC6F00436DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AriesDemo.xcodeproj",
+				);
+				INFOPLIST_FILE = AriesDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.trustbloc.AriesDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFB1744324BCAC6F00436DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AriesDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.trustbloc.AriesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AriesDemo.app/AriesDemo";
+			};
+			name = Debug;
+		};
+		AFB1744424BCAC6F00436DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AriesDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.trustbloc.AriesDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AriesDemo.app/AriesDemo";
+			};
+			name = Release;
+		};
+		AFB1744624BCAC6F00436DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AriesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.trustbloc.AriesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AriesDemo;
+			};
+			name = Debug;
+		};
+		AFB1744724BCAC6F00436DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AriesDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.trustbloc.AriesDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AriesDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB1740824BCAC6E00436DFC /* Build configuration list for PBXProject "AriesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1743D24BCAC6F00436DFC /* Debug */,
+				AFB1743E24BCAC6F00436DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB1743F24BCAC6F00436DFC /* Build configuration list for PBXNativeTarget "AriesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1744024BCAC6F00436DFC /* Debug */,
+				AFB1744124BCAC6F00436DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB1744224BCAC6F00436DFC /* Build configuration list for PBXNativeTarget "AriesDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1744324BCAC6F00436DFC /* Debug */,
+				AFB1744424BCAC6F00436DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB1744524BCAC6F00436DFC /* Build configuration list for PBXNativeTarget "AriesDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB1744624BCAC6F00436DFC /* Debug */,
+				AFB1744724BCAC6F00436DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFB1741C24BCAC6E00436DFC /* AriesDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFB1741D24BCAC6E00436DFC /* AriesDemo.xcdatamodel */,
+			);
+			currentVersion = AFB1741D24BCAC6E00436DFC /* AriesDemo.xcdatamodel */;
+			path = AriesDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFB1740524BCAC6E00436DFC /* Project object */;
+}

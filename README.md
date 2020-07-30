@@ -6,4 +6,8 @@ Examples of how to use the [Aries Framework Go](https://github.com/hyperledger/a
 
 ## Android
 
-Checkout the [AriesDemo](android/AriesDemo) example.
+Try this [AriesDemo](android/AriesDemo) Android example.
+
+## iOS
+
+Try this [AriesDemo](ios/AriesDemo) iOS example.
