@@ -4,6 +4,7 @@
 */
 
 #import <UIKit/UIKit.h>
+#import <AriesAgent/AriesAgent.h>
 
 @interface ViewController : UIViewController
 
